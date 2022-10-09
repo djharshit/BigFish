@@ -9,7 +9,7 @@ dropdown-menu{
  padding-left: 15%;
  padding-top: 10px;
  padding-bottom: 10px;
- margin-left: 29%;
+ margin-left: 27%;
  box-shadow: 16px 16px 16px 16px black (0,0,0,0.2);
  border: none;
 
@@ -27,5 +27,5 @@ dropdown-menu{
 }
 .btn-secondary:hover{
     color:white;
-    background:#ff7700;
+    background:#a23807;
 }
