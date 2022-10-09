@@ -229,10 +229,10 @@ h4.megamenu-col-title a {
 }
 
 .is-sticky .menuzord-brand .logo-scrolled-to-fixed {
-	background: #dca40d !important;
-    border-radius: 50% !important;
-    width: 80px !important;
-    height: 80px !important;
+	background: transparent !important;
+    /* border-radius: 50% !important; */
+    width: 90px !important;
+    height: 90px !important;
     overflow: visible !important;
     position: absolute !important;
     top: 0px !important;
