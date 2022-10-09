@@ -1,0 +1,31 @@
+dropdown-menu{
+    position:center;
+    padding-left: 70px;
+    
+}
+.btn{
+ position: center;
+ padding-right: 15%;
+ padding-left: 15%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-left: 29%;
+ box-shadow: 16px 16px 16px 16px black (0,0,0,0.2);
+ border: none;
+
+}
+
+.btn-secondary {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    background: #ffb200;
+}
+
+.dropdown-toggle{
+    position: center;
+}
+.btn-secondary:hover{
+    color:white;
+    background:#ff7700;
+}
