@@ -239,6 +239,7 @@ h4.megamenu-col-title a {
     max-height: none !important;
     padding: 7px !important;
 	transition: all 0.1s ease-in !important;
+	
 }
 
 .is-sticky .menuzord-brand .logo-scrolled-to-fixed:hover {
