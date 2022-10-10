@@ -795,6 +795,9 @@ span.min-temperature {
 .bg-theme-iitd {
 	background-color: #fff4f4 !important
 }
+/* .bg-theme-iitd:hover{
+	border-color: #C21717;
+} */
 
 .kk-bold {
 	font-weight: bold !important
