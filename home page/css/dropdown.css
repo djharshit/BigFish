@@ -41,7 +41,8 @@ login-btn{
  border-radius: 5px;
  border-color: transparent;
  /* margin-top:8px; */
- padding-right: 5px;
+ /* padding-left: 15px; */
+ margin-left: 70px;
 }
 
 .btn-secondary2 {
