@@ -47,19 +47,19 @@ login-btn{
 
 .btn-secondary2 {
     text-align: center;
-    color: black;
+    color: white;
     font-size: 15px;
     padding-top:7px;
     padding-bottom:7px;
     padding-right: 15px;
     padding-left: 15px;
-    background: whitesmoke;
+    background: #aa360c;
 }
 
 .dropdown-toggle2{
     position: center;
 }
 .btn-secondary2:hover{
-    color:white;
-    background:#c21717;
+    color:black;
+    background:white;
 }
