@@ -30,6 +30,17 @@ dropdown-menu{
     background:#c21717;
 }
 
+.dropdown-menu li{
+    background-color: white;
+}
+.dropdown-item a{
+    color: black;
+}
+.dropdown-item a:hover{
+    background-color: #c21717;
+}
+
+
 login-btn{
     position:center;
     
