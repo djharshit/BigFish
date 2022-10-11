@@ -20,8 +20,8 @@ dropdown-menu{
     color: black;
     font-size: 25px;
     background: #ffb200;
+    
 }
-
 .dropdown-toggle{
     position: center;
 }
@@ -40,6 +40,7 @@ dropdown-menu{
     background-color: #ffb200;
     color: white;
 }
+
 
 login-btn{
     position:center;
