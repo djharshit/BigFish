@@ -120,12 +120,14 @@ body {
   background-color: #fff;
 }
 a {
-  color: #999999;
+  color: white;
   text-decoration: none;
 }
-a:hover,
+/* a:hover{
+  color:black;
+} */
 a:focus {
-  color: #737373;
+  color: white;
   text-decoration: none;
 }
 a img {

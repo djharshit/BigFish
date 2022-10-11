@@ -64,9 +64,16 @@ login-btn{
     padding-bottom:7px;
     padding-right: 15px;
     padding-left: 15px;
-    background: #aa360c;
+    background: #c21717;
 }
-
+.a{
+    color:white;
+    background-color: #c21717;
+}
+.a:hover{
+    color:black;
+    background:white;
+}
 .dropdown-toggle2{
     position: center;
 }
