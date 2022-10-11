@@ -33,11 +33,12 @@ dropdown-menu{
 .dropdown-menu li{
     background-color: white;
 }
-.dropdown-item a{
+.dropdown-menu li a{
     color: black;
 }
-.dropdown-item a:hover{
-    background-color: #c21717;
+.dropdown-menu li a:hover{
+    background-color: #ffb200;
+    color: white;
 }
 
 login-btn{
