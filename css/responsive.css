@@ -441,9 +441,9 @@
 /* Extra Small Devices, Phones */
 @media (min-width : 361px) and (max-width : 479px) {
 	.top-section {
-		display: none;
+		display:block;
 	}
-
+	
 	.social-links {
 		float: left;
 	}
@@ -605,27 +605,28 @@
 	}
 
 	.about-blk {
-		padding-bottom: 0 !important
+		padding-bottom: 0 !important;
 	}
 
 	#news {
-		padding-top: 40px !important
+		padding-top: 40px !important;
 	}
 
 	#courses .container {
-		padding-top: 40px !important
+		padding-top: 40px !important;
+		
 	}
 
 	#research .container {
-		padding-top: 40px !important
+		padding-top: 40px !important;
 	}
 
 	#research .col-md-4 h2 {
-		margin-top: 0 !important
+		margin-top: 0 !important;
 	}
 
 	h2 {
-		margin-bottom: 0 !important
+		margin-bottom: 0 !important;
 	}
 
 	#research .container {
@@ -850,7 +851,7 @@
 	.top-section {
 		display: none;
 	}
-
+	
 	.social-links {
 		float: left;
 	}
