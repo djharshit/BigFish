@@ -14,14 +14,14 @@
 
 
   <!-- Meta Tags -->
-  <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <meta name="description" content="IIT DELHI" />
+  <!-- <meta name="description" content="IIT DELHI" />
   <meta name="keywords" content="IIT DELHI" />
-  <meta name="author" content="IIT DELHI" />
+  <meta name="author" content="IIT DELHI" />  -->
   <!-- Page Title -->
   <title>
     Home Page : JEC JABALPUR</title>
@@ -63,55 +63,7 @@
   <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 
   <!-- Dark Mode JS-->
-  <script>
-    function darkMode() {
-
-      var artheme = document.getElementById('darkmode').innerHTML;
-
-      if (artheme == '<i class="fa fa-bookmark-o"></i> Dark Mode') {
-        localStorage.setItem('darkTheme', 'true')
-        setDarkTheme();
-      } else {
-        localStorage.setItem('darkTheme', 'false')
-        document.getElementById('darkmode').innerHTML = '<i class="fa fa-bookmark-o"></i> Dark Mode';
-        document.getElementById('darkmode1').innerHTML = '<i class="fa fa-moon-o" aria-hidden="true"></i> Switch to Dark Mode';
-        $('link[href*="css/colors/ar-dark.css"]').attr("disabled", "true");
-      }
-
-
-    }
-
-    function setDarkTheme() {
-
-      // Create new link Element 
-      var link = document.createElement('link');
-
-      // set the attributes for link element 
-      link.rel = 'stylesheet';
-
-      link.type = 'text/css';
-
-      document.getElementById('darkmode').innerHTML = '<i class="fa fa-bookmark-o"></i> Normal Mode';
-      document.getElementById('darkmode1').innerHTML = '<i class="fa fa-sun-o" aria-hidden="true"></i> Switch to Normal Mode';
-      link.href = 'css/colors/ar-dark.css';
-      document.getElementsByTagName('HEAD')[0].appendChild(link);
-    }
-
-    function checkDarkMode() {
-
-      let darkDefault = localStorage.getItem('darkTheme')
-      if (darkDefault === 'true') {
-        setDarkTheme()
-      } else {
-
-      }
-
-    }
-		/*setTimeout(()=>{
-      console.log("Dark Mode")
-      checkDarkMode();
-      }, 1000)*/
-  </script>
+  
   <!--dark mode css end -->
   <link href="css/iitd-style.css" rel="stylesheet" type="text/css">
   <link href="css/ps-iitd-style.css" rel="stylesheet" type="text/css">
@@ -160,7 +112,7 @@
 <![endif]-->
 </head>
 
-<body id="no-iitd-scroll" class="has-fixed-footer">
+<body id="no-iitd-scroll" class="has-fixed-footer" style="width: 100%;">
   <div id="wrapper" class="clearfix">
 
     <script type="text/javascript">
@@ -380,14 +332,14 @@
     <div class="main-content" role="main">
       <!-- Section: home -->
 
-      <section id="home" aria-hidden="true">
+      <section id="home" aria-hidden="true" style="width: 100%;">
         <div class="container-fluid p-0 ar-bg-slide">
 
           <!-- START REVOLUTION SLIDER 5.0.7 -->
           <div id="rev_slider_home_wrapper" class="rev_slider_wrapper" data-alias="news-gallery34"
-            style="margin:0px auto; background-color:#ffffff; padding:0px; margin-top:0px; margin-bottom:0px;">
+            style="margin:0px auto; background-color:#ffffff; padding:0px; margin-top:0px; margin-bottom:0px; margin-right:0px; ">
             <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
-            <div id="rev_slider_home" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+            <div id="rev_slider_home" class="rev_slider fullwidthabanner" style="display:none; " data-version="5.0.7" >
               <ul>
 
                 <!-- SLIDE sample -->
@@ -398,10 +350,10 @@
                 <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-easein="default"
                   data-easeout="default" data-masterspeed="default" data-thumb="images/slider/Adminblock1.jpeg"
                   data-rotate="0" data-fstransition="fade" data-saveperformance="off" data-title="Web Show"
-                  data-description="">
+                  data-description="" style="width: 100%;">
                   <!-- MAIN IMAGE -->
                   <img src="images/slider/Adminblock1.jpeg" alt="" data-bgposition="center center" data-bgfit="cover"
-                    data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                    data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina style="width: 100%;">
                   <!-- LAYERS -->
                   <!-- LAYER NR. 1 -->
                   <div
