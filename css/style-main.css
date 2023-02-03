@@ -110,6 +110,7 @@ This file contains the common styles of this theme.
 }
 html {
   font-size: 100%;
+  
 }
 body {
   line-height: 1.7;
@@ -118,7 +119,7 @@ body {
   /* font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif; */
   font-family: 'Titillium Web', sans-serif, Source Sans Pro, Helvetica Neue, Helvetica, Arial,sans-serif;
   background-color: #fff;
-  min-width: 960px;
+  
 }
 a {
   color: white;
