@@ -4,7 +4,8 @@
 
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
-@media (min-width : 768px) and (max-width : 1199px) {
+@media (min-width : 768px) and (max-width : 1024px) {
+	
 	.is-sticky .ar-nav-cent .kk {
     	display: none !important
 	}
@@ -439,7 +440,7 @@
 }
 
 /* Extra Small Devices, Phones */
-@media (min-width : 361px) and (max-width : 479px) {
+@media (min-width : 361px) and (max-width : 540px) {
 	.top-section {
 		display:block;
 	}
@@ -1380,6 +1381,8 @@
 
 
 @media only screen and (max-width: 580px) {
+
+  
   #feedback-div {
     left: 3%;
     margin-right: 3%;
