@@ -14,14 +14,14 @@
 
 
   <!-- Meta Tags -->
-  <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=yes" />
+  <!-- <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <meta name="description" content="IIT DELHI" />
+  <!-- <meta name="description" content="IIT DELHI" />
   <meta name="keywords" content="IIT DELHI" />
-  <meta name="author" content="IIT DELHI" />
+  <meta name="author" content="IIT DELHI" />  -->
   <!-- Page Title -->
   <title>
     Home Page : JEC JABALPUR</title>
@@ -63,55 +63,7 @@
   <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 
   <!-- Dark Mode JS-->
-  <script>
-    function darkMode() {
-
-      var artheme = document.getElementById('darkmode').innerHTML;
-
-      if (artheme == '<i class="fa fa-bookmark-o"></i> Dark Mode') {
-        localStorage.setItem('darkTheme', 'true')
-        setDarkTheme();
-      } else {
-        localStorage.setItem('darkTheme', 'false')
-        document.getElementById('darkmode').innerHTML = '<i class="fa fa-bookmark-o"></i> Dark Mode';
-        document.getElementById('darkmode1').innerHTML = '<i class="fa fa-moon-o" aria-hidden="true"></i> Switch to Dark Mode';
-        $('link[href*="css/colors/ar-dark.css"]').attr("disabled", "true");
-      }
-
-
-    }
-
-    function setDarkTheme() {
-
-      // Create new link Element 
-      var link = document.createElement('link');
-
-      // set the attributes for link element 
-      link.rel = 'stylesheet';
-
-      link.type = 'text/css';
-
-      document.getElementById('darkmode').innerHTML = '<i class="fa fa-bookmark-o"></i> Normal Mode';
-      document.getElementById('darkmode1').innerHTML = '<i class="fa fa-sun-o" aria-hidden="true"></i> Switch to Normal Mode';
-      link.href = 'css/colors/ar-dark.css';
-      document.getElementsByTagName('HEAD')[0].appendChild(link);
-    }
-
-    function checkDarkMode() {
-
-      let darkDefault = localStorage.getItem('darkTheme')
-      if (darkDefault === 'true') {
-        setDarkTheme()
-      } else {
-
-      }
-
-    }
-		/*setTimeout(()=>{
-      console.log("Dark Mode")
-      checkDarkMode();
-      }, 1000)*/
-  </script>
+  
   <!--dark mode css end -->
   <link href="css/iitd-style.css" rel="stylesheet" type="text/css">
   <link href="css/ps-iitd-style.css" rel="stylesheet" type="text/css">
@@ -122,7 +74,7 @@
   <!--<link href="css/colors/custom-color-bl.css" rel="stylesheet" type="text/css"> -->
 
   <!-- CSS | Responsive media queries -->
-  <link href="css/responsive.css?v=1.1.9" rel="stylesheet" type="text/css">
+  <link href="css/responsive.css" rel="stylesheet" type="text/css">
   <script type="text/javascript">
     window.mobileCheck = function () {
       let check = false;
@@ -161,7 +113,7 @@
 </head>
 
 <body id="no-iitd-scroll" class="has-fixed-footer">
-  <div id="wrapper" class="clearfix">
+  <div id="wrapper" class="clearfix" style="max-width:1024px">
 
     <script type="text/javascript">
 
@@ -188,7 +140,7 @@
     <a href='kksearch' class='ar-search1'><i class='fa fa-search ar-search-mobile' aria-hidden='true'></i></a>
     <header id="header" class="header header-floating" role="banner">
 
-      <div class="header-middle p-0 ar-bg-lightest xs-text-center pb-15">
+      <div class="header-middle p-0 ar-bg-lightest xs-text-center pb-15" >
         <div class="container pt-5 pb-0">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8">
@@ -380,14 +332,14 @@
     <div class="main-content" role="main">
       <!-- Section: home -->
 
-      <section id="home" aria-hidden="true">
+      <section id="home" aria-hidden="true" style="width: 100%;">
         <div class="container-fluid p-0 ar-bg-slide">
 
           <!-- START REVOLUTION SLIDER 5.0.7 -->
           <div id="rev_slider_home_wrapper" class="rev_slider_wrapper" data-alias="news-gallery34"
-            style="margin:0px auto; background-color:#ffffff; padding:0px; margin-top:0px; margin-bottom:0px;">
+            style="margin:0px auto; background-color:#ffffff; padding:0px; margin-top:0px; margin-bottom:0px; margin-right:0px; ">
             <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
-            <div id="rev_slider_home" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+            <div id="rev_slider_home" class="rev_slider fullwidthabanner" style="display:none; " data-version="5.0.7" >
               <ul>
 
                 <!-- SLIDE sample -->
@@ -398,10 +350,10 @@
                 <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-easein="default"
                   data-easeout="default" data-masterspeed="default" data-thumb="images/slider/Adminblock1.jpeg"
                   data-rotate="0" data-fstransition="fade" data-saveperformance="off" data-title="Web Show"
-                  data-description="">
+                  data-description="" style="width: 100%;">
                   <!-- MAIN IMAGE -->
                   <img src="images/slider/Adminblock1.jpeg" alt="" data-bgposition="center center" data-bgfit="cover"
-                    data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                    data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina style="width: 100%;">
                   <!-- LAYERS -->
                   <!-- LAYER NR. 1 -->
                   <div
@@ -1551,7 +1503,7 @@
                     <div id="collaps1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headin1"
                       aria-expanded="true" style="">
                       <div class="panel-body">
-                        <h4 class="m-0 kk-bold">ABC</h4>
+                        <h4 class="m-0 kk-bold">Mr. ABC</h4>
                         <p class="text-gray">XYZ<br>
                           <a href="tel:+91-11-2659 1718"><i class="fa fa-phone mr-10"></i>+91-100-0000-000</a><br>
                           <i class="fa fa-envelope mr-10"></i> <span class="spamspan"><span
@@ -1573,11 +1525,11 @@
                     <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2"
                       aria-expanded="false" style="height: 0px;">
                       <div class="panel-body">
-                        <h4 class="m-0 kk-bold">ABC</h4>
-                        <p class="text-gray">XYZ<br>
-                          <a href="tel:+91-11-2659 1718"><i class="fa fa-phone mr-10"></i>+91 9900990099</a><br>
+                        <h4 class="m-0 kk-bold">Mr. Suresh Kumar Gohar</h4>
+                        <p class="text-gray">Assistant Registrar (UGS)<br>
+                          <a href="tel:+91-11-2659 1718"><i class="fa fa-phone mr-10"></i>+91-11-2659-1718</a><br>
                           <i class="fa fa-envelope mr-10"></i> <span class="spamspan"><span
-                              class="u">abc</span>[at]<span class="d">jecjabalpur [dot] ac [dot] in</span></span>
+                              class="u">drugs</span>[at]<span class="d">admin [dot] iitd [dot] ac [dot] in</span></span>
                         </p>
                       </div>
                     </div>
@@ -1599,13 +1551,13 @@
                     <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3"
                       aria-expanded="false" style="height: 0px;">
                       <div class="panel-body">
-                        <h4 class="m-0 kk-bold">ABC</h4>
-                        <p class="text-gray">XYZ<br>
-                          Position<br>
+                        <h4 class="m-0 kk-bold">Prof. B. R. Chahar</h4>
+                        <p class="text-gray">Organising Chairman, GATE 2020<br>
+                          Institute Chair Professor<br>
                           <a href="tel:+91-11-2659 1718"><i
-                              class="fa fa-phone mr-10"></i>+91-0000000</a><br>
+                              class="fa fa-phone mr-10"></i>+91-11-2659-1749/1750/6137</a><br>
                           <i class="fa fa-envelope mr-10"></i><span class="spamspan"><span
-                              class="u">abc</span>[at]<span class="d">jecjabalpur [dot]
+                              class="u">chrgate</span>[at]<span class="d">admin [dot] iitd [dot] ac [dot]
                               in</span></span>
                         </p>
                       </div>
@@ -1624,7 +1576,7 @@
                       aria-expanded="false" style="height: 0px;">
                       <div class="panel-body">
                         <p class="text-gray">Please visit the <a class="text-theme-colored2" target="_blank"
-                            href="http://www.iitd.ac.in/icollect/epay/index.html">e-SBI webpage</a>.</p>
+                            href="http://www.iitd.ac.in/icollect/epay/index.html">ePAY webpage</a>.</p>
                       </div>
                     </div>
                   </div>
@@ -1640,11 +1592,11 @@
                     <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4"
                       aria-expanded="false" style="height: 0px;">
                       <div class="panel-body">
-                        <p class="text-gray">ABC<br>
-                          XYZ<br>
+                        <p class="text-gray">Dr. Kalyan Bhattacharjee<br>
+                          Joint Registrar (Establishments)<br>
                           <a href="tel:+91-11-2659-1716">+91-11-2659-1716</a><br>
-                          <span class="spamspan"><span class="u">abc</span>[at]<span
-                              class="d">jecjabalpurdot]in</span></span>
+                          <span class="spamspan"><span class="u">kalyan</span>[at]<span
+                              class="d">admin[dot]iitd[dot]ac[dot]in</span></span>
                         </p>
 
                       </div>
