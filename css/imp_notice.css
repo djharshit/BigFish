@@ -1,0 +1,99 @@
+.nav-tabs
+{
+border-color:#ffc93c;
+width:100%;
+font-family:'Times New Roman', Times, serif;
+background-color: #fff6C3;
+}
+
+.nav-tabs > li a { 
+border: 1px solid ;
+background-color:#fff!important; 
+color:#fff !important;
+font-family:'Times New Roman', Times, serif;
+font-size: larger;
+
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+background-color:#fff6C3 !important;
+color:#000 !important;
+border: 1px solid #fff4f4;
+font-family:'Times New Roman', Times, serif;
+border-bottom-color: transparent;
+
+}
+
+.modal-header-2{
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5
+}
+.modal-header-2 .close{
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+}
+.modal-header-2 .close .a{
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    
+    
+    opacity: .2; 
+
+}
+
+.modal-header-2 .close .a .i{
+    cursor: pointer;
+}
+.nav-tabs > li.active > a{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.nav-tabs > li > a:hover{
+background-color: #fff6C3 !important;
+border-radius: 2px;
+color:#000 !important;
+font-family:'Times New Roman', Times, serif;
+border-color: #c21717 #c21717 #c21717;
+
+} 
+
+.tab-pane {
+border:solid 1px #ffc93c;
+border-top: 0; 
+width:100%;
+background-color:#fff;
+padding:20px;
+ border-bottom-left-radius:15px;
+border-bottom-right-radius:15px;
+
+}
+
+.ImpText1 {
+padding: 9px;
+border-radius: 3px; 
+min-height: 20px;
+margin-bottom: 5px;
+border-left: 5px solid #ffc93c;
+border-top-left-radius:10px; 
+background-color: #fff6C3;
+font-family:'Times New Roman', Times, serif;
+}
+.ImpText2 {
+padding: 9px;
+border-radius: 3px; 
+min-height: 20px;
+margin-bottom: 5px;
+background-color: #fff;
+border-top-left-radius:10px; 
+border-left: 5px solid #ffc93c;
+font-family:'Times New Roman', Times, serif;
+}
+
+
+  

@@ -6,11 +6,11 @@ body {
 .row{
   padding-left: 10px;
 }
-.col-1{
+.col-4{
   float:left;
   width:10%;
 }
-.col-2{
+.col-8{
   float:left;
   width:90%;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 div.content {
-  margin-left: 70px;
+  margin-left: 15%;
   padding: 1px 16px;
   height: fit-content;
   position: static;

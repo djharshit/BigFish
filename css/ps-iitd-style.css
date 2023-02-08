@@ -104,7 +104,7 @@ p strong {color:#C21717 !important}
     line-height: 30px;
     letter-spacing: 2px;
     text-align: center;
-    background: linear-gradient(45deg,#ff8a00,#e52e71,#044bea,#7a00ff););
+    background: linear-gradient(45deg,#ff8a00,#e52e71,#044bea,#7a00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 300% 300%;
@@ -112,6 +112,7 @@ p strong {color:#C21717 !important}
     display: inline-block;
     vertical-align: middle;
 }
+
 @-webkit-keyframes gradient-text {
   0% {
     background-position: 0% 50%;

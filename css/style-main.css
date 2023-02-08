@@ -1021,6 +1021,7 @@ section > .container-fluid {
   right: 0;
   top: 0;
   z-index: 1111;
+  
   /* -------- Header Transparent Dark ---------- */
   /* -------- Header Transparent Dark ---------- */
   /* -------- Header Transparent White ---------- */
@@ -1029,6 +1030,7 @@ section > .container-fluid {
 .header.header-floating .header-top,
 .header.header-floating .header-mid {
   color: #fff;
+  
 }
 .header.header-floating .header-top .widget a,
 .header.header-floating .header-mid .widget a {
