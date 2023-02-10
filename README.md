@@ -1,1 +1,1 @@
-# JEC-website
+# JEC-Website-Project
